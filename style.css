@@ -1,0 +1,139 @@
+body {
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 100%;
+}
+
+.game {
+  display: block;
+  position: relative; 
+  width: 39vw;
+  height: 38.35vw;
+  border-radius: 50%; 
+  margin: 3.5vw auto 3vw auto;
+  padding: 1vw;
+  background-color: #0d0d0d;
+  box-shadow: 0.2vw 0.2vw 0.2vw 0 #0d0d0d, inset -0.1vw -0.1vw 0.1vw 0 #4d4d4d; 
+}
+
+.simon {
+  position: relative;
+/*  display: inline-block; */
+  margin-left: -0.15vw;
+  border-radius: 50%; 
+  width: 37.3vw;
+  height: 36.4vw;
+  background-color: #0d0d0d;
+}
+
+.ctr {
+  margin: 0.5vw; 
+  width: 17.6vw;
+  height: 17.3vw;
+  box-shadow: 0.2vw 0.2vw 0.2 0 #0d0d0d, inset -0.1vw -0.1vw 0.1vw 0 #4d4d4d; 
+}
+
+.ctr:active {
+  box-shadow: inset 0.2vw 0.1vw 0.2vw 0.1vw rgba(0, 0, 0, 0.2);
+}
+
+#green {
+  background-color: #009933;
+  border-top-left-radius: 100%;
+  position: absolute;
+  top: -0.2vw;
+  left: 0.01vw;
+}
+
+#green.play:active {
+  background-color: #00cc44;
+}
+
+#red {
+  background-color: #b30000;
+  border-top-right-radius: 100%; 
+  position: absolute;
+  top: -0.2vw;
+  left: 18.75vw;
+}
+  
+#red.play:active {
+  background-color: #e60000;
+}
+
+#yellow {
+  background-color: #e6b800;
+  border-bottom-left-radius: 100%;
+  position: absolute;
+  top: 18.35vw;
+  left: 0.01vw;
+ }
+
+#yellow.play:active {
+  background-color: #ffdb4d;
+}
+
+#blue {
+  background-color: #005580;
+  border-bottom-right-radius: 100%;
+  position: absolute;
+  top: 18.35vw;
+  left: 18.75vw;
+ }
+
+#blue.play:active {
+  background-color: #0088cc;
+}
+
+.menu {
+/*  display: none; */
+  position: absolute;
+  top: 10.75vw;
+  left: 10.9vw;
+  width: 17.4vw;
+  height: 17.3vw;
+  background-color: #0d0d0d;
+  border-radius: 50%; 
+}
+
+#start {
+  background-color: #666666;
+  margin-top: 2vw;
+  width: 3.7vw;
+  height: 1.5vw;
+  border-radius: 30%;
+  line-height: 0.5;
+  color: #1a1a1a;
+}
+
+.name {
+  font: 6vw 'Oswald', sans-serif;
+  font-weight: bold; 
+  color: #ffffff;
+  line-height: 0.97;
+}
+
+.display {
+  background-color: #000000;
+  margin-top: 1.5vw;
+  margin-left: 5vw;
+  width: 3.5vw;
+  height: 3vw;
+  border: 0.1vw solid #333333;
+  border-radius: 10%;
+  font: 2vw sans-serif;
+  color: #e6e6e6;
+}
+
+#strict {
+  margin-left: 5vw;
+  margin-top: -4.8vw;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  background-color: #ff5c33;
+  border: 2px solid #ff471a;
+}

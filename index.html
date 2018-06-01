@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>FCC Simon Game</title>
+      <meta content-type="text/html" charset="UTF-8"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	  <link href="https://fonts.googleapis.com/css?family=Oswald|Suez+One" rel="stylesheet">
+	  <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container-fluid text-center">
+      <div class="game">
+        <div class="simon">
+          <div class="btn ctr play" id="green"></div>
+          <div class="btn ctr play" id="red"></div>
+          <div class="btn ctr play" id="yellow"></div>
+          <div class="btn ctr play" id="blue"></div>
+        </div>
+        <div class="menu"> 
+		  <div class="btn" id="start" data-toggle="tooltip" title="start"></div>
+		  <p class ="name">simon</p>
+		  <div class="display"></div>
+		  <div class="btn circle" id="strict" data-toggle="tooltip" title="strict"></div>
+		</div>
+      </div>
+    </div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+  </body>
+</html>
